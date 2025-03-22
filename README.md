@@ -4,4 +4,4 @@ Desafio para implementação de sensor biométrico com sensor cardiaco
 
 # Como funciona?
 
-Após registro de digital, envia dados para um servidor, após isso, começa a leitura de dados do sensor cardíaco, enquanto o registrado estiver sendo lido, o sistema continua funcionando, após leitura , novamente da digital do candidato, a leitura de dados para de funcionar.
+Após o registro da digital com o sensor biométrico R307, começa a leitura do sensor cardíaco AD8232 e envia esses dados para um servidor Flash, que serão processados via interface gráfica Streamlit. O sistema continua funcionando até que a digital do paciente seja inserida novamente no sensor biométrico, interrompendo a leitura de dados do eletrocardiograma.
